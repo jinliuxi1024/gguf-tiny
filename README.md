@@ -31,7 +31,7 @@
 
 转化为gguf文件
 
-转化为gguf文件比较麻烦，需要将spm.model修改为tokenizer.model,将model.safetensors文件和对应一起生成的index.json文件，自己参考huggingface上config.json和tokizen_config.json，需要自己修改\n ,<|im_start|>,<|im_end|>配置，以及对齐core的模型配置。
+转化为gguf文件比较麻烦，具体细节参考Nemo文件夹下的内容，正确对齐即可，需要将生成的safetensor和对应的index.json以及spm.model修改为tokenizer.model,并修改配置对齐core.py中的模型配置，对齐config.json等文件，tokenizer_config.json不会不用改。
 
 使用llama.cpp运行gguf文件
 
