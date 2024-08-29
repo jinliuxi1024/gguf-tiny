@@ -1,4 +1,4 @@
-# gguf-tiny
+# slm-gguf
 中文预训练大模型，天枢v2,gguf格式支持
 
 # 训练目的
@@ -10,7 +10,7 @@
 # 使用教程
 首先是下载github上的包
 
-`git clone https://github.com/jinliuxi1024/gguf-tiny`
+`git clone https://github.com/jinliuxi1024/slm-gguf`
 
 由于我没有导出相关的依赖，不过放心，本项目依赖比较少，缺什么包安装什么
 
