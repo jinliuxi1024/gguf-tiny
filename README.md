@@ -37,8 +37,9 @@
 
 `llama-cli -m 你的模型路径  -co  --keep -1  -p "少年:分析一下水的化学合成方法格式塔:" -i -r "少年:" --temp 1.5 --top-p 0.8`
 
-当然如果不想折腾，可以git clone 本人的huggingface上提供的已经预训练好的模型直接运行（待更新）
+当然如果不想折腾，可以git clone 本人的huggingface上提供的已经预训练好的模型直接运行
 
+[jinliuxi/slm-18M](https://huggingface.co/jinliuxi/slm-18M)
 
 # 模型配置说明
 
