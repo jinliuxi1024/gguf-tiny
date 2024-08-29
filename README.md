@@ -35,7 +35,7 @@
 
 使用llama.cpp运行gguf文件
 
-`llama-cli -m 你的模型路径  --in-prefix "<|im_start|>少年: " --reverse-prompt "<|im_start|>" -co -p "<|im_start|>天枢核心: 主驱动<|im_end|>" -cnv -c 768`
+`llama-cli -m 你的模型路径  -co  --keep -1  -p "少年:分析一下水的化学合成方法格式塔:" -i -r "少年:" --temp 1.5 --top-p 0.8`
 
 当然如果不想折腾，可以git clone 本人的huggingface上提供的已经预训练好的模型直接运行（待更新）
 
@@ -52,7 +52,9 @@
 
 # gguf推理展示
 
-<img width="558" alt="截屏2024-08-27 11 25 25" src="https://github.com/user-attachments/assets/9c31464e-1cd2-4ac3-9693-ee0b477c0db2">
+<img width="568" alt="截屏2024-08-30 01 43 43" src="https://github.com/user-attachments/assets/f5e78c6e-baf0-4384-bfc9-1b425be640c5">
+
+
 
 
 
